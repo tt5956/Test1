@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("로그인[1]  회원가입[2]  회원탈퇴[3]  아이디찾기[4]  비밀번호찾기[5]  목록불러오기[6]");
 		int num = sc.nextInt();
 		sc.nextLine(); // 숫자 입력후 엔터값 없애기 
-
+  
 		if (num == 1) { 										// 로그인(1)
 			System.out.println("로그인을 진행합니다.");
 			System.out.println("아이디를 입력해주세요.");
